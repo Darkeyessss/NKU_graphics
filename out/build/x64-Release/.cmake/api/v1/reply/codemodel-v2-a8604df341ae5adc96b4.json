@@ -1,0 +1,303 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "third_party/imgui",
+					"jsonFile" : "directory-third_party.imgui-RelWithDebInfo-73f0d61fb9eb46b5dc32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party/imgui",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "third_party/glad",
+					"jsonFile" : "directory-third_party.glad-RelWithDebInfo-0123c5b1b35f13de2384.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party/glad",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "third_party/glm",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-third_party.glm-RelWithDebInfo-c6a2a1eb287ba6240828.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third_party/glm"
+				},
+				{
+					"build" : "third_party/glm/glm",
+					"jsonFile" : "directory-third_party.glm.glm-RelWithDebInfo-89d485164ddb30c4f8eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "third_party/glm/glm"
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-RelWithDebInfo-df8a23303754f0cfc2e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "fluid2d/Lagrangian",
+					"jsonFile" : "directory-fluid2d.Lagrangian-RelWithDebInfo-e7ff3b0ee5dc64658440.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fluid2d/Lagrangian",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "fluid2d/Eulerian",
+					"jsonFile" : "directory-fluid2d.Eulerian-RelWithDebInfo-a6932e8d55703e7339dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fluid2d/Eulerian",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "fluid3d/Lagrangian",
+					"jsonFile" : "directory-fluid3d.Lagrangian-RelWithDebInfo-47e52241d5c89059308f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fluid3d/Lagrangian",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "fluid3d/Eulerian",
+					"jsonFile" : "directory-fluid3d.Eulerian-RelWithDebInfo-e30a76c16412b49c0e29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fluid3d/Eulerian",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "ui",
+					"jsonFile" : "directory-ui-RelWithDebInfo-2a6e294cdf0513704cdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ui",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "FluidSimulationSystem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "glm",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FluidSimulationSystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FluidSimulationSystem-RelWithDebInfo-82c48c67aa187cd98961.json",
+					"name" : "FluidSimulationSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-RelWithDebInfo-dce557db6a77873509ec.json",
+					"name" : "common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "eulerian2d::@a4aa41d2ef74f1c2316f",
+					"jsonFile" : "target-eulerian2d-RelWithDebInfo-54e5360a9f6dcee6b7ea.json",
+					"name" : "eulerian2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "eulerian3d::@ba02fb93c0f7347c55c5",
+					"jsonFile" : "target-eulerian3d-RelWithDebInfo-2abbdc2bde32cc7b6548.json",
+					"name" : "eulerian3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glad::@400044bae19587d17a2e",
+					"jsonFile" : "target-glad-RelWithDebInfo-fe3ed016e19767d1af7c.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@0bd0160a8608684c225b",
+					"jsonFile" : "target-imgui-RelWithDebInfo-edfa8b70b94847afefe9.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "lagrangian2d::@98a68d7a5404c3f0e989",
+					"jsonFile" : "target-lagrangian2d-RelWithDebInfo-233cf2a76b361327e965.json",
+					"name" : "lagrangian2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "lagrangian3d::@9f666e2a7feba1d84c16",
+					"jsonFile" : "target-lagrangian3d-RelWithDebInfo-d81a5fb370176aa509c8.json",
+					"name" : "lagrangian3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ui::@19b8bf288843bf358763",
+					"jsonFile" : "target-ui-RelWithDebInfo-b2545c00c379c933edee.json",
+					"name" : "ui",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/18176/Desktop/fluid-sim/code/out/build/x64-Release",
+		"source" : "C:/Users/18176/Desktop/fluid-sim/code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
