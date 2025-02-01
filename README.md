@@ -1,7 +1,8 @@
 # Fluid Simulation System
-
+# Final score: 99/100
 
 ## 南开大学图形学作业 By： dkr lyh
+
 
 ### 环境配置
 
